@@ -12,4 +12,10 @@
     - name: install git
       yum:
         name: git
-        state: present        
+        state: present
+ 
+  tasks:
+    - name: install git
+      yum:
+        name: git
+        state: present 
